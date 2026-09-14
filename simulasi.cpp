@@ -16,11 +16,11 @@ int main(){
         harga = 4000;
         cout << "Air mineral anda berhasil dipesan" << endl;
         break;
-    case 2;
+    case 2:
         harga = 6000;
         cout << "Teh botol anda berhasil dipesan" << endl;
         break;
-    case 3;
+    case 3:
         harga = 10000;
         cout << "Kopi susu anda berhasil dipesan" << endl;
         break;
@@ -28,7 +28,7 @@ int main(){
         cout << "Kode minuman tidak valid!" << endl;
         return 0;
     }
-    cout << "scan barcode gopay anda untuk melakukan pembayaran: " << endl;
+    cout << "scan barcode gopay anda untuk melakukan pembayaran, nominal gopay anda: " << endl;
     cin >> uang;
     if (uang < harga){
         cout << "Transaksi gagal!" << endl;
